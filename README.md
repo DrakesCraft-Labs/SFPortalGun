@@ -1,38 +1,27 @@
+<p align="center"><img src="docs/banner.svg" alt="SFPortalGun banner" width="100%"></p>
+
 # SFPortalGun
 
-Pistola de portales para Slimefun: teletransporte entre dos puntos enlazados.
+Linked portal and gravity tools for Slimefun. The addon turns point-to-point transport into a
+crafted utility while retaining normal server-side safety checks.
 
-Adaptación de DrakesCraft para **Paper/Purpur 1.21.11** y Java 21.
+## DrakesCraft edition
 
-## Qué es
+- Targets Java 21 and Paper/Purpur 1.21.11.
+- Compiles against the DrakesCraft Slimefun compatibility namespace.
+- Keeps the original item IDs and package layout stable.
+- Uses current Paper APIs and maintained build repositories.
 
-Pistola de portales para Slimefun: teletransporte entre dos puntos enlazados.
+## Building
 
-Aporta **2 objetos** repartidos en 6 clases.
+```bash
+mvn -B -ntp clean package
+```
 
-## Qué cambiamos
+Install the artifact from `target/` with
+[`Slimefun4-Drake`](https://github.com/DrakesCraft-Labs/Slimefun4-Drake).
 
-Este repositorio **no es un fork**: es el código original integrado en el ecosistema de
-DrakesCraft. Los cambios son de compatibilidad, no de contenido:
+## Provenance
 
-- Los paquetes de Slimefun pasan de `io.github.thebusybiscuit` a `com.github.drakescraft_labs`,
-  que es como está repaquetado nuestro core. Sin eso, el addon no encuentra ni una clase.
-- Compila contra Java 21 y `paper-api` 1.21.1, en vez de las versiones de su época.
-- Se actualizan dependencias que vivían en repositorios de Maven que ya no responden.
-
-El paquete propio del addon y sus nombres de clase **se dejan intactos**, para que las
-actualizaciones de arriba sigan siendo legibles y se pueda comparar con el original.
-
-## Instalación
-
-Necesita Slimefun de DrakesCraft (`Slimefun4-Drake`). Se pone el jar en `plugins/` y listo.
-
-## Crédito
-
-El trabajo de fondo es de los autores originales. Nosotros solo lo hemos adaptado.
-
-- Origen: https://github.com/SlimefunGuguProject/SFPortalGun.git
-- Licencia: **GPL-3.0**
-
-La licencia original se conserva sin tocar en este repositorio. Si eres el autor y prefieres
-que retiremos esta adaptación, escríbenos y se quita.
+Integrated from [balugaq/SFPortalGun](https://github.com/balugaq/SFPortalGun).
+Original authorship and the GPL-3.0 license are preserved.
