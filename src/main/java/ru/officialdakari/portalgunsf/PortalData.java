@@ -13,6 +13,9 @@ public class PortalData {
     public Boolean second;
 
     public Boolean intersects(Location loc) {
+        if (loc == null || location == null || !location.getWorld().equals(loc.getWorld())) {
+            return false;
+        }
         Location ploc = location.clone();
         if (blockFace == BlockFace.DOWN) {
             loc = loc.clone().add(0, 2, 0);
