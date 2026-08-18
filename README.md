@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.svg" width="100%" alt="SFPORTALGUN Animated Banner" />
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SFPortalGun/main/docs/banner.svg" width="100%" alt="SFPORTALGUN Animated Banner" />
 </p>
 
 # SFPortalGun
@@ -39,3 +39,37 @@ Añadir una dimensión táctica y divertida de movilidad y manipulación física
 
 - **Autor original**: Comunidad Slimefun-Lab
 - **Adaptación y Mantenimiento 1.21.11**: **DrakesCraft Labs**
+
+## Qué añade al juego
+
+Addon de Slimefun con contenido propio: máquinas, objetos y recetas nuevas.
+
+
+Todo se fabrica y se investiga desde la guía normal (`/sf guide`), como cualquier otro contenido
+de Slimefun: no hace falta ningún comando especial para empezar.
+
+## Compatibilidad
+
+| | |
+|---|---|
+| Servidor | Paper / Purpur **1.21.11** |
+| Java | **21** |
+| Requiere | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| Lado | Solo servidor — quien juega no instala nada |
+| Versión | 1.0-SNAPSHOT |
+
+## Instalación
+
+1. Descarga el `.jar` de la última versión.
+2. Déjalo en la carpeta `plugins/` del servidor, junto a Slimefun.
+3. Reinicia el servidor. Los objetos aparecen solos en la guía.
+
+> Este addon está portado al fork de Slimefun de DrakesCraft. Con el Slimefun original puede no
+> cargar, porque cambia el espacio de nombres de las clases.
+
+## Créditos
+- officialdakari
+
+Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/DrakesCraft-Labs/SFPortalGun/main/docs/UPSTREAM_ATTRIBUTION.md).
+
+Licencia **GPL-3.0-only**.
