@@ -1,14 +1,72 @@
-# Slimefun Portal Gun
-Portal Gun and Gravity Gun on your Minecraft server without mods, only Slimefun.
+<div align="center">
 
-Made for [SlimeFun-Lab/Slimefun4](https://github.com/SlimeFun-Lab/Slimefun4/), for Paper 1.21.10.
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SFPortalGun/main/banner.svg" alt="SFPortalGun Banner" width="920" />
 
-You can make it for older versions, but a bit tinkering is needed.
+# ⚡ SFPortalGun
 
-## Portal Gun
-Crafted with a bow, iron block, ender pearl and an electromagnet. Shoots two portals, every portal gun has two random colors.
+**ARMAS DE PORTALES · TELETRANSPORTE FÍSICO**
 
-## Gravity Gun
-Crafted with a fishing rod, a block of iron, an ender pearl and an electromagnet. Can pick up blocks and mobs.
+<p>
+  <a href="https://github.com/DrakesCraft-Labs/SFPortalGun"><img src="https://img.shields.io/badge/GitHub-SFPortalGun-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
+</p>
 
-**TODO: CoreProtect integration**
+</div>
+
+> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+> 
+> * 🎮 **IP del Servidor**: `play.drakescraft.net` *(Java 1.21.11 & Bedrock)*
+> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rR7FbfCt9Y)
+> * 🌐 **Web & Guía**: [drakescraft.net](https://drakescraft.net) — 🛒 **Tienda**: [tienda.drakescraft.net](https://tienda.drakescraft.net)
+> 
+> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
+
+---
+
+---
+
+## 📖 Descripción General
+
+**SFPortalGun** es un componente esencial del ecosistema **DrakesCraft Labs** para servidores Minecraft **Paper / Purpur 1.21.11**.
+
+Pistolas de portales cuánticos para teletransporte instantáneo entre dos puntos del espacio con conservación de inercia.
+
+Todo el contenido y sus mecánicas se integran y desbloquean desde la **Guía de Slimefun (`/sf guide`)** sin necesidad de comandos especiales.
+
+---
+
+## ⚙️ Características y Sistemas Principales
+
+* 🚀 **Rendimiento Optimizado**: Construido para Java 21 sobre Paper 1.21.11 con recolección limpia de entidades y sin telemetría externa.
+* 🛡️ **Seguridad e Integridad**: Transacciones seguras en memoria y compatibilidad completa con almacenamiento `BlockStorage`.
+* 🎮 **Integración Total**: Compatible con Slimefun4-Drake, redes de logística, sistemas de energía y economía global.
+
+---
+
+## 📋 Compatibilidad Técnica
+
+| Parámetro | Requisito |
+|---|---|
+| **Servidor** | Paper / Purpur / Folia **1.21.11** |
+| **Java** | **Java 21** LTS |
+| **Core** | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| **Lado** | 100% Servidor (Server-side) |
+
+---
+
+## 📥 Instalación
+
+1. Descarga la versión compilada `.jar` desde las releases del repositorio o Modrinth.
+2. Colócala en la carpeta `plugins/` de tu servidor Minecraft junto a `Slimefun4-Drake.jar`.
+3. Inicia o reinicia el servidor.
+
+---
+
+<div align="center">
+
+**Desarrollado y Mantenido por [DrakesCraft Labs](https://github.com/DrakesCraft-Labs)**  
+Licencia **GPL-3.0-only** / **MIT**.
+
+</div>
