@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SFPortalGun/main/docs/banner.svg" width="100%" alt="SFPORTALGUN Animated Banner" />
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SFPortalGun/main/banner.svg" width="100%" alt="SFPORTALGUN Animated Banner" />
 </p>
 
 # SFPortalGun
