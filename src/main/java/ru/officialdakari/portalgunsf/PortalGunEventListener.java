@@ -30,7 +30,7 @@ public class PortalGunEventListener implements Listener {
     public void onHit(ProjectileHitEvent e) {
         Entity projectile = e.getEntity();
         if (projectile.getType() == EntityType.SNOWBALL) {
-            if (e.getHitBlock().getType() == Material.AIR) {
+            if (e.getHitBlock() == null || e.getHitBlockFace() == null || e.getHitBlock().getType() == Material.AIR) {
                 return;
             }
             Snowball ball = (Snowball) projectile;
